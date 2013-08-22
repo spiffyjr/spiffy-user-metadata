@@ -1,13 +1,13 @@
 {
-    "name": "zf-commons/zfc-user-metadata",
+    "name": "spiffy/spiffy-user-metadata",
     "require": {
-        "php": ">=5.3.3",
-        "zf-commons/zfc-user": "dev-master"
+        "php": ">=5.4",
+        "spiffy/spiffy-user": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "ZfcUserMetadata": "src/",
-            "ZfcUserMetadataTest": "test/"
+            "SpiffyUserMetadata": "src/",
+            "SpiffyUserMetadataTest": "test/"
         }
     }
 }
