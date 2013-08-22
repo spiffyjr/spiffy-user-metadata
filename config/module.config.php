@@ -3,14 +3,14 @@
 return array(
     'doctrine' => array(
         'driver' => array(
-            'zfc_user_metadata' => array(
+            'spiffy_user_metadata' => array(
                 'class' => 'Doctrine\ORM\Mapping\Driver\XmlDriver',
                 'paths' => array(__DIR__ . '/orm')
             ),
 
             'orm_default' => array(
                 'drivers' => array(
-                    'SpiffyUserMetadata\Entity' => 'zfc_user_metadata',
+                    'SpiffyUserMetadata\Entity' => 'spiffy_user_metadata',
                 )
             )
         )
@@ -24,7 +24,7 @@ return array(
         )
     ),
 
-    'zfc_user' => array(
+    'spiffy_user' => array(
         'extensions' => array(
             'metadata' => array(
                 'type'         => 'SpiffyUserMetadata\Extension',
